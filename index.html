@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="index.css" />
+<script src="index.js"></script>
+<title>松田奏南　自由研究</title>
+</head>
+<body>
+<div class="quizzes-container">
+  <h1>社会のクイズ総集編！(LEVEL2)</h1>
+  <p>注意：「回答する」は、よく考えて押してください。　　　　一度押すと次は押せません。</p>
+  <div class="quiz-container"></div>
+  <div class="quiz-container">
+    <h2>第1問！</h2>
+    <div>
+      <p>安徳天皇は何歳で海に身投げした？</p>
+    </div>
+    <form id="quiz-1">
+      <input name="answer" type="radio" value="a">わずか８歳</input>
+      <input name="answer" type="radio" value="b">わずか１０歳</input>
+      <input name="answer" type="radio" value="c">わずか９歳</input>
+    </form>
+    <button class="btn" type="button" onclick="answerQuiz1(); disabled = true; ">回答する</button>
+  </div>
+  <div class="quiz-container">
+    <h2>第2問！</h2>
+    <div>
+      <p>アメリカと結んだ条約名「日米？？条約」</p>
+    </div>
+    <form id="quiz-2">
+      <input name="answer" type="radio" value="a">修好</input>
+      <input  name="answer" type="radio" value="b">通商</input>親
+      <input name="answer" type="radio" value="c">和親</input>
+    </form>
+    <button class="btn" type="button" onclick="answerQuiz2(); disabled = true;">回答する</button>
+  </div>
+  <div class="quiz-container">
+    <h2>第3問！</h2>
+    <div>
+      <p>この手紙が届くと兵士として戦場にいかなければならなかった。その手紙は？</p>
+    </div>
+    <form id="quiz-3">
+      <input name="answer" type="radio" value="a">青紙</input>
+      <input name="answer" type="radio" value="b">黒紙</input>
+      <input name="answer" type="radio" value="c">赤紙</input>
+    </form>
+    <button class="btn" type="button" onclick="answerQuiz2(); disabled = true;">回答する</button>  
+</div>
+<div class="quiz-container">
+　<h2>第4問！</h2>
+    <div>
+      <p>「奥の細道」の作者は？</p>
+    </div>
+    <form id="quiz-4">
+      <input name="answer" type="radio" value="a">夏目漱石</input>
+      <input name="answer" type="radio" value="b">松尾芭蕉</input>
+      <input name="answer" type="radio" value="c">井原西鶴</input>
+    </form>
+    <button class="btn" type="button" onclick="answerQuiz4(); disabled = true;">回答する</button>  
+</div>
+<div class="quiz-container">
+  　<h2>第5問！</h2>
+      <div>
+        <p>大日本帝国憲法はどこの国を参考にした？</p>
+      </div>
+      <form id="quiz-5">
+        <input name="answer" type="radio" value="a">アメリカ</input>
+        <input name="answer" type="radio" value="b">ドイツ</input>
+        <input name="answer" type="radio" value="c">イギリス</input>
+      </form>
+      <button class="btn" type="button" onclick="answerQuiz4(); disabled = true;">回答する</button>  
+  </div>
+<div class="quiz-container">
+    <h2>第6問！</h2>
+    <div>
+      <p>関ヶ原の戦いは誰VS誰？</p>
+    </div>
+    <form id="quiz-6">
+      <input name="answer" type="radio" value="a">徳川家康VS豊臣秀頼</input>
+      <p><input name="answer" type="radio" value="b">織田信長VS徳川家康</input></br>
+      <p><input name="answer" type="radio" value="c">豊臣秀頼VS織田信長</input></br>
+    </form>
+    <button class="btn" type="button" onclick="answerQuiz5(); disabled = true;">回答する</button>  
+    <div id="score-container">
+    <p id="score-message"></p>
+  </div>
+  <button class="btn-score" type="button" onclick="showScore(); disabled = true;">合計得点を見る</button>
+
+  <div class="quiz-container"></div>
+  <p>制作：　松田奏南</br>
+  <p>企画：　松田奏南</p>
+
+</div>
+</body>
